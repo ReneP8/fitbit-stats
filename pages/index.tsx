@@ -1,4 +1,4 @@
-import { AppBar, Button, Container, IconButton, Toolbar, Typography } from '@mui/material';
+import { AppBar, Button, Container, IconButton, Paper, Toolbar, Typography } from '@mui/material';
 import type { NextPage } from 'next';
 import FitbitLoginButton from '../components/FitbitLoginButton';
 
@@ -24,7 +24,6 @@ const Home: NextPage = () => {
       <Container>
         <FitbitLoginButton />
       </Container>
-
     </div>
   )
 }
